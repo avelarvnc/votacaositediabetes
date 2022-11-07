@@ -1,0 +1,127 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+
+        <style>
+
+            :root{
+                --azul-senac: #004A8D;
+                --laranja-senac: #F7941D;
+                --cinza: #303030;
+                --branco: #fffafa;
+            }
+
+            *{
+                font-family: 'Noto Sans', sans-serif;
+                margin: 0;
+                border: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                background-color: var(--branco);
+            }
+
+            p{
+                font-size: 1.2rem;
+                color: var(--cinza);
+            }
+
+            h3{
+                font-size: 2rem;
+                color: var(--azul-senac);
+            }
+            
+            h2{
+                font-size: 2.2rem;
+                color: var(--branco);
+            }
+
+            h1{
+                font-size: 2.6rem;
+                color: var(--branco);
+            }
+
+            header{
+                text-align: center;
+                padding: 48px 0;
+                background-color: var(--azul-senac);
+            }
+
+            section{
+                padding: 48px 12px;
+                background-color: #fffcfc;
+            }
+
+            .card-site{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                padding: 48px 0;
+            }
+
+            .card-site a {
+                text-decoration: none;
+                font-size: 1.6rem;
+                color: var(--cinza);
+                background-color: var(--laranja-senac);
+                padding: 12px;
+                border-radius: 10px;
+                letter-spacing: 1.2;
+            }
+
+            .card-site img{
+                margin: 12px 0;
+            }
+
+            footer{
+                background-color: var(--azul-senac);
+                text-align: center;
+                padding: 12px 0;
+            }
+
+            footer p{
+                color: var(--branco);
+                font-size: 1rem;
+            }
+
+            @media screen and (min-width: 1024px) {
+            .card-site{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                padding: 48px 0;
+            }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Campanha do Dia Mundial da Diabates</h1>
+            <h2>Senac Santos</h2>
+        </header>
+
+        <main>
+            <section>
+                <h3>Websites desenvolvidos pelos alunos da turma TI44 do Senac Santos</h3>
+                <article class="card-site">
+                    <img src="img/carol-talita-ruan.png" alt="teste">
+                    <a href="https://carolzinhalima.github.io/diabete/" target="_blank">Alunos: Carol, Talita e Ruan</a>   
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <p>Essa página foi desenvolvida para auxiliar o processo de votação do website que representará as turmas do Senac Santos na ação do Dia Mundial da Diabetes de 2022.</p>
+        </footer>
+    </body>
+
+</html>
