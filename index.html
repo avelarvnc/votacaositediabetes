@@ -1,0 +1,173 @@
+<!DOCTYPE html5>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+        <title>Dia Mundial da Diabetes - Senac Santos</title>
+        <style>
+
+            :root{
+                --azul-senac: #004A8D;
+                --laranja-senac: #F7941D;
+                --cinza: #303030;
+                --branco: #fffafa;
+            }
+
+            *{
+                font-family: 'Noto Sans', sans-serif;
+                margin: 0;
+                border: 0;
+                box-sizing: border-box;
+            }
+
+            body{
+                background-color: var(--branco);
+            }
+
+            p{
+                font-size: 1.2rem;
+                color: var(--cinza);
+            }
+
+            h3{
+                font-size: 2rem;
+                color: var(--azul-senac);
+            }
+            
+            h2{
+                font-size: 2.2rem;
+                color: var(--branco);
+            }
+
+            h1{
+                font-size: 2.6rem;
+                color: var(--branco);
+            }
+
+            header{
+                text-align: center;
+                padding: 48px 0;
+                background-color: var(--azul-senac);
+            }
+
+            main
+            {
+                text-align: center;
+            }
+
+            section{
+                padding: 48px 12px;
+                background-color: #fffcfc;
+            }
+
+            .card-site{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                align-items: center;
+                padding: 48px 0;
+            }
+
+            .card-site a {
+                text-decoration: none;
+                font-size: 1.6rem;
+                color: var(--cinza);
+                background-color: var(--laranja-senac);
+                padding: 12px;
+                border-radius: 10px;
+                letter-spacing: 1.2;
+            }
+
+            .card-site img{
+                margin: 12px 0;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+            }
+
+            footer{
+                background-color: var(--azul-senac);
+                text-align: center;
+                padding: 12px 0;
+            }
+
+            .link-destaque{
+                text-decoration: none;
+                font-size: 1.6rem;
+                color: var(--branco);
+                background-color: var(--azul-senac);
+                padding: 12px;
+                border-radius: 10px;
+                letter-spacing: 1.2;
+            }
+
+            footer p{
+                color: var(--branco);
+                font-size: 1rem;
+            }
+
+
+            @media screen and (min-width: 1024px) {
+            .card-site{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                padding: 48px 0;
+            }
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1>Campanha do Dia Mundial da Diabates</h1>
+            <h2>Senac Santos</h2>
+        </header>
+
+        <main>
+            <section>
+                <h3>Websites desenvolvidos pelos alunos da turma TI44 do Senac Santos</h3>
+                <article class="card-site">
+                    <img src="img/carol-talita-ruan.png" alt="amostra do website desenvolvido pelos alunos Carol, Talita e Ruan">
+                    <a href="https://carolzinhalima.github.io/diabete/" target="_blank">Alunos: Carol, Talita e Ruan</a>   
+                </article>
+
+                <article class="card-site">
+                    <img src="img/charles-laelson.png" alt="amostra do website desenvolvido pelos alunos Charles e Laelson">
+                    <a href="https://laelsonjunior.github.io/Site-Diabetes/" target="_blank">Alunos: Charles e Laelson</a>   
+                </article>
+
+                <article class="card-site">
+                    <img src="img/jean-kevin-lucas.png" alt="amostra do website desenvolvido pelos alunos Jean, Kevin e Lucas">
+                    <a href="https://slai9.github.io/Prevencao-Lucas-R--Kevin-e-Jean-/" target="_blank">Alunos: Jean, Kevin e Lucas R. </a>   
+                </article>
+
+                <article class="card-site">
+                    <img src="img/alexandre-leandro.png" alt="amostra do website desenvolvido pelos alunos Alexandre e Leandro">
+                    <a href="https://alexandredev45.github.io/site/" target="_blank">Alunos: Alexandre e Leandro</a>   
+                </article>
+
+                <article class="card-site">
+                    <img src="img/diego-rafael.png" alt="amostra do website desenvolvido pelos alunos Diego e Rafael">
+                    <a href="https://skliners.github.io/diabete/" target="_blank">Alunos: Diego S. e Rafael</a>   
+                </article>
+
+                <article class="card-site">
+                    <img src="img/diego-lucas.png" alt="amostra do website desenvolvido pelos alunos Diego e Lucas">
+                    <a href="https://monteslucas807.github.io/sitediabetes/" target="_blank">Alunos: Diego Jr. e Lucas M.</a>   
+                </article>
+                
+
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScz-7vAAI4edK9K68K6i2vOavqv73HTqK-TX4ICi1W2NbRJNg/viewform?usp=sf_link" target="_blank" class="link-destaque">Clique aqui para votar no site que você mais gostou</a>
+            </section>
+        </main>
+
+        <footer>
+            <p>Essa página foi desenvolvida para auxiliar o processo de votação do website que representará as turmas do Senac Santos na ação do Dia Mundial da Diabetes de 2022.</p>
+        </footer>
+    </body>
+
+</html>
